@@ -1,0 +1,144 @@
+/* Kerapihan */
+.rate-kerapihan {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate-kerapihan:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate-kerapihan:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate-kerapihan:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate-kerapihan > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate-kerapihan:not(:checked) > label:hover,
+.rate-kerapihan:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate-kerapihan > input:checked + label:hover,
+.rate-kerapihan > input:checked + label:hover ~ label,
+.rate-kerapihan > input:checked ~ label:hover,
+.rate-kerapihan > input:checked ~ label:hover ~ label,
+.rate-kerapihan > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+/* Keramahan */
+.rate-keramahan {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate-keramahan:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate-keramahan:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate-keramahan:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate-keramahan > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate-keramahan:not(:checked) > label:hover,
+.rate-keramahan:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate-keramahan > input:checked + label:hover,
+.rate-keramahan > input:checked + label:hover ~ label,
+.rate-keramahan > input:checked ~ label:hover,
+.rate-keramahan > input:checked ~ label:hover ~ label,
+.rate-keramahan > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+/* Efisiensi */
+.rate-efisiensi {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate-efisiensi:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate-efisiensi:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate-efisiensi:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate-efisiensi > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate-efisiensi:not(:checked) > label:hover,
+.rate-efisiensi:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate-efisiensi > input:checked + label:hover,
+.rate-efisiensi > input:checked + label:hover ~ label,
+.rate-efisiensi > input:checked ~ label:hover,
+.rate-efisiensi > input:checked ~ label:hover ~ label,
+.rate-efisiensi > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+/* Kepuasan */
+.rate-kepuasan {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate-kepuasan:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate-kepuasan:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate-kepuasan:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate-kepuasan > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate-kepuasan:not(:checked) > label:hover,
+.rate-kepuasan:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate-kepuasan > input:checked + label:hover,
+.rate-kepuasan > input:checked + label:hover ~ label,
+.rate-kepuasan > input:checked ~ label:hover,
+.rate-kepuasan > input:checked ~ label:hover ~ label,
+.rate-kepuasan > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
